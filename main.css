@@ -1,7 +1,71 @@
 body {
-    background-color: navajowhite;
+    background-color: whitesmoke;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-    color: palegoldenrod;
+    font-family: 'Spectral' , sans-serif;
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: wheat;
+    border-style: solid;
+    border size: 10px;
+    align-self: auto;
+    position: relative;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+    border-style: solid;
+}
+
+p {
+    font-family: fantasy;
+    font-size: xx-large;
+    text-align: center;
+}
+
+ul#otis {
+    list-style-type: none;
+    background-color: papayawhip;
+}
+
+button#Social {
+    font-size: larger;
+
+}
+
+.bannerbackground {
+    background-color: #282829;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.flex-item {
+
 }
